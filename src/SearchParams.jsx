@@ -130,7 +130,7 @@ const SearchParams = () => {
         </label>
         <button>Submit</button>
       </form>
-      <Results pets={pets} />
+
       <div className="pagination">
         <span>
           <button
@@ -153,6 +153,7 @@ const SearchParams = () => {
           </button>
         </span>
       </div>
+      <Results pets={pets} />
     </div>
   );
 };
